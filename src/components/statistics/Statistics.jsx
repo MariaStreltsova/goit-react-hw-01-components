@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import StatisticsItem from './statisticsItem';
+import StatisticsItem from './StatisticsItem';
 export default function Statistics({ title, stats }) {
      const isTitle = { title };
     return (
