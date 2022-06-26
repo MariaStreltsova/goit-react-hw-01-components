@@ -11,6 +11,7 @@ export default function FriendList( {friends} ) {
                 {friends.map((friend) => (
                     <li key={friend.id}>
                         <FriendListItem
+                            isOnline={friend.isOnline}
                             name={friend.name}
                             avatar={friend.avatar}
                         />
