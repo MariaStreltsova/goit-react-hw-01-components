@@ -1,6 +1,9 @@
 import PropTypes from 'prop-types';
 import FriendListItem from "./FriendsListItem";
 
+
+
+
 export default function FriendList( {friends} ) {
     return (
         <div>
