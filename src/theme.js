@@ -32,7 +32,7 @@ export const theme = {
   },
   borders: {
     none: 'none',
-    normal: '1px solid',
+    normal: '1px solid #8ca8b8',
   },
   radii: {
     none: '0',
