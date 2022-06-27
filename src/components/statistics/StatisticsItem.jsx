@@ -1,9 +1,11 @@
 import PropTypes from 'prop-types';
+import {Label, Percentage } from './StyledStatistics';
+
 export default function StatisticsItem({label, percentage}) {
     return (
         <>
-        <span class="label">{label}</span>
-      <span class="percentage">{percentage}%</span>
+        <Label>{label}</Label>
+      <Percentage>{percentage}%</Percentage>
         </>
     )
 }

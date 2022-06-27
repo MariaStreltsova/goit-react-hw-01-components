@@ -25,15 +25,18 @@ align-items: center;
 `;
 
 export const Friend = styled.li`
- background-color:${p => p.theme.colors.accent};
+
  padding-left: ${p => p.theme.space[5]}px;
   padding-right: ${p => p.theme.space[5]}px;
   padding-top:  ${p => p.theme.space[4]}px;
-
+border-radius: ${p => p.theme.radii.normal};
   :not(:last-child) {
   border-bottom: 1px solid rgb(253, 252, 252);
 
 };
+:hover, :focus{
+   background-color:${p => p.theme.colors.accent};  
+}
 
 `;
 
