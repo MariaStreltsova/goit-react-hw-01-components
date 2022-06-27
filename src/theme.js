@@ -1,16 +1,10 @@
 export const theme = {
     colors: {
-    black: '#000',
     white: '#fff',
     avatar: 'grey',
     text: '#2a2a2a',
-    background: '#fff',
-    primary: '#07c',
-    secondary: '#05a',
-        accent: '#c5e8fc',
+    accent: '#c5e8fc',
     accentText: '#8ca8b8',
-    muted: '#f6f6f6',
-    
     },
     space: [0, 2, 4, 8, 16, 32, 64, 128, 256],
 
