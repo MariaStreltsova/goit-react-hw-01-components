@@ -8,7 +8,6 @@ export const Table = styled.table`
  margin-bottom:  ${p => p.theme.space[5]}px;
  border-radius: ${p => p.theme.radii.normal};
 box-shadow: 2px 3px 15px 1px ${p => p.theme.colors.accent};
-
 `;
 
 export const Column = styled.td`

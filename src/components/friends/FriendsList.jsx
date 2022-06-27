@@ -2,8 +2,6 @@ import PropTypes from 'prop-types';
 import FriendListItem from "./FriendsListItem";
 import { FriendsContainer, FriendsList, Friend } from "./FriendsStyled";
 
-
-
 export default function FriendList( {friends} ) {
     return (
         <FriendsContainer>

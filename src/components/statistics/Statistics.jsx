@@ -20,7 +20,6 @@ export default function Statistics({ title, stats }) {
             </Info>
             </StatisticsContainer>
 )
-    
 }
 
 Statistics.propTypes = {
