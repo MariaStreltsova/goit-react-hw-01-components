@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const FriendsContainer = styled.div`
   align-items: center;
   margin-top: ${p => p.theme.space[7]}px;
-  margin-bottom:  ${p => p.theme.space[6]}px;
+  margin-bottom: ${p => p.theme.space[6]}px;
   width: 400px;
   margin-left: auto;
   margin-right: auto;
@@ -19,19 +19,20 @@ export const FriendsList = styled.ul`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  `;
+`;
 
 export const Friend = styled.li`
   padding-left: ${p => p.theme.space[5]}px;
   padding-right: ${p => p.theme.space[5]}px;
-  padding-top:  ${p => p.theme.space[4]}px;
+  padding-top: ${p => p.theme.space[4]}px;
   border-radius: ${p => p.theme.radii.normal};
   :not(:last-child) {
-  border-bottom: 1px solid rgb(253, 252, 252);
-};
-:hover, :focus{
-   background-color:${p => p.theme.colors.accent};  
-}
+    border-bottom: 1px solid rgb(253, 252, 252);
+  }
+  :hover,
+  :focus {
+    background-color: ${p => p.theme.colors.accent};
+  }
 `;
 
 export const Status = styled.span`
@@ -48,7 +49,7 @@ export const FriendAvatar = styled.img`
 `;
 
 export const FriendName = styled.p`
-  margin-left:  ${p => p.theme.space[5]}px;
-  font-size:  ${p => p.theme.space[4]}px;
-  font-weight:  ${p => p.theme.fontWeights.bold};
+  margin-left: ${p => p.theme.space[5]}px;
+  font-size: ${p => p.theme.space[4]}px;
+  font-weight: ${p => p.theme.fontWeights.bold};
 `;
