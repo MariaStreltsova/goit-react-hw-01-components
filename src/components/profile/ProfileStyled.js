@@ -5,7 +5,7 @@ export const  ProfileContainer = styled.div`
 
 align-items: center;
    
-      margin-top: ${p => p.theme.space[7]}px;
+      margin-top: ${p => p.theme.space[5]}px;
   margin-bottom:  ${p => p.theme.space[6]}px;
   width: 400px;
   margin-left: auto;
